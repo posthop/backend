@@ -26,17 +26,7 @@ users = [
         "electric_car": True,
         "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGGGqbW9-gUJAOpv4dSXm_Scl3PaLnvXeycOcznmYKV_vbf98Xiw",
         "phone_number": "222-222-2222"
-    },
-    {
-        "name": "Driver3",
-        "full_name": "Carleton",
-        "rating": 4,
-        "coordinates": (45.337995, -75.726191),
-        "car_model": "Toyota Corolla",
-        "electric_car": False,
-        "picture": "https://www.1310news.com/wp-content/blogs.dir/sites/4/2016/12/01/carleton-u-logo.jpg",
-        "phone_number": "333-333-3333"
-    },   
+    }, 
     {
         "name": "Driver4",
         "full_name": "Mario",
