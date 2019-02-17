@@ -1,6 +1,7 @@
 from flask import Flask
 from flask_restful import Api, Resource, reqparse
 import random
+import os
 
 app = Flask(__name__)
 api = Api(app)
@@ -99,6 +100,6 @@ api.add_resource(User, "/user/<string:name>")
 api.add_resource(UserList, "/users")
 api.add_resource(UserRandom, "/random_user")
 
-app.run(debug=True)
+app.run(os.getenv('POSTHOP_HOST', '127.0.0.1'), debug=True)
 
 
