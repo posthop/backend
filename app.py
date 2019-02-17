@@ -36,6 +36,36 @@ users = [
         "electric_car": False,
         "picture": "https://www.1310news.com/wp-content/blogs.dir/sites/4/2016/12/01/carleton-u-logo.jpg",
         "phone_number": "333-333-3333"
+    },   
+    {
+        "name": "Driver4",
+        "full_name": "Mario",
+        "rating": 3,
+        "coordinates": (43.653355, -79.383120),
+        "car_model": "Nissan Leaf",
+        "electric_car": True,
+        "picture": "https://i.imgur.com/JGNcNKm.png",
+        "phone_number": "444-444-4444"
+    },
+    {
+        "name": "Driver5",
+        "full_name": "Batman",
+        "rating": 5,
+        "coordinates": (49.875000, -97.119636),
+        "car_model": "Batmobile",
+        "electric_car": True,
+        "picture": "https://i.imgur.com/IY2YWY9.png",
+        "phone_number": "555-555-5555"
+    },
+    {
+        "name": "Driver6",
+        "full_name": "Julia",
+        "rating": 5,
+        "coordinates": (43.541391, -79.666126),
+        "car_model": "Audi A4",
+        "electric_car": False,
+        "picture": "https://i.imgur.com/kyM4fKd.png",
+        "phone_number": "666-666-6666"
     }
 ]
 
